@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "live-server public/",
-    "build": "webpack --watch",
-    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "fktrctq",
@@ -15,13 +14,13 @@
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "live-server": "^1.2.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "validator": "^10.4.0",
-    "webpack": "^4.13.0"
+    "webpack": "^4.13.0",
+    "webpack-dev-server": "^3.1.4"
   },
   "devDependencies": {
     "webpack-cli": "^3.0.8"

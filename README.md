@@ -5,3 +5,6 @@ babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
 
 //script to run server:
 live-server public
+
+//with webpack:
+npm run dev-server
